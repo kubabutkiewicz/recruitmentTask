@@ -1,0 +1,114 @@
+#signup
+  
+  .overlapping
+    height: 856px
+  .box-primary
+    position: absolute
+    height: 382px
+    top: 0
+    .sub-title-alt
+      margin-top: 37px
+    .btn
+      width: 100%
+      &:hover
+        background-color: $dark-blue
+        color: #ffffff
+      
+    
+  .box-secondary
+    position: absolute
+    bottom: 0
+    height: 444px
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    color: #ffffff
+    .quote-icon
+      position: absolute
+      right: 5%
+      top: 17%
+      color: rgba(255,255,255,.3)
+      font-size: 88px
+    .desc
+      margin: 0 16px
+      
+    .wrapper
+      margin-top: 29px
+      display: grid
+      grid-template-columns: 0.25fr 1fr
+      grid-template-rows: 1fr 
+      margin-bottom: 36px
+      .img-wrapper
+        display: flex
+        justify-content: center
+        width: 48px
+        height: 48px
+        border-radius: 50%
+        background-color: #ffffff
+        padding: 5px
+        justify-self: end
+      .employee-wrapper
+        display: flex
+        flex-direction: column
+        justify-content: center
+        margin-left: 16px
+        color: #ffffff
+        .desc
+          margin: 0
+@media (min-width: 768px)
+  #signup
+    
+    .container
+      width: 700px
+      margin: 0 auto
+      .overlapping
+        width: 100%
+        height: 720px
+        .box-primary
+          top: 0
+          width: 600px
+          padding: 0 23px 42px 23px
+          .desc
+            width: 90%
+          .btn
+            width: 70%
+        .box-secondary
+          height: 378px
+          width: 628px
+          right: 0
+          bottom: -10%
+          .quote-icon
+            font-size: 24px
+            top: 24%
+            left: 5%
+          .desc
+            margin: 0 84px
+            padding: 0
+            width: 80%
+          .wrapper
+            padding: 0
+            .desc
+              margin: 0
+@media (min-width: 1224px)
+  #signup
+    .container
+      width: 1250px
+      .overlapping
+        .box-primary
+          width: 610px
+          top: 10%
+          left: 0
+        .box-secondary
+          width: 658px
+          top: 25%
+          .quote-icon
+            top: 18%
+            left: 13%
+          .desc
+            width: 70%
+            margin: 0 120px
+          .wrapper
+            margin-left: 50px
+            
+
+          

@@ -1,0 +1,101 @@
+#contact
+  background: 
+    color: #ffffff
+  .container
+    margin-bottom: 72px
+  .sub-title-alt,.title-alt
+    margin-left: 16px
+  .sub-title-alt
+    margin-top: 43px
+    margin-bottom: 7px
+  .contact-form
+    margin-left: 16px
+    .name-input, .email-input
+      width: 90%
+      border: 0
+      border-bottom: 1px solid $dark-grey
+      outline: none
+      padding: 10px 0  
+    .name-input
+      margin-bottom: 23px
+    .email-input
+      margin-bottom: 27px
+    .text-input
+      resize: none
+      width: 85%
+      height: 110px
+      background: 
+        color: $grey
+      border: 1px solid $dark-grey
+      outline: none
+      padding: 15px 10px
+      margin-bottom: 16px
+      border-radius: 3px
+    .btn
+      width: 90%
+@media (min-width: 768px)
+  #contact
+    
+    .container
+      width: 728px
+      margin: 0 auto 72px auto
+      .sub-title-alt,.title-alt
+        margin-left: 0
+      .contact-img
+        margin-top: 144px
+        border-radius: 3px
+      .contact-form
+        
+        .name-input, .email-input
+          padding: 0 16px 11px 0
+          width: 45%
+          display: inline-block
+        .name-input
+          margin-right: 16px
+        .text-input
+          width: 94%
+        .btn
+          width: 53%        
+@media (min-width: 1224px)
+  #contact
+    .container
+      display: grid
+      grid-template-columns: 1.5fr 1.5fr
+      grid-template-areas: "image  content"
+      align-items: center
+      grid-gap: 60px
+      width: 1000px
+      .contact-img
+        margin-top: 0
+        width: 555px
+        grid-area: 'image'
+        
+          
+      .content-wrapper
+      
+        .title-alt
+          font-size: 32px
+          grid-area: 'content'
+          margin-bottom: 22px
+        .sub-title-alt
+          font-size: 18px
+          grid-area: 'content'
+          margin-bottom: 11px
+        .contact-form
+          grid-area: 'content'
+          width: 100%
+          padding: 0
+          .name-input, .email-input
+            padding: 0 0 11px 0
+            width: 47%
+          .text-input
+            height: 110px
+          .btn
+            width: 65%
+            border: 0
+            cursor: pointer
+            &:hover
+              background-color: $dark-blue
+              color: #ffffff
+            
+      

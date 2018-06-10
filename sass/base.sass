@@ -1,0 +1,98 @@
+@import 'vars'
+
+body
+  background:
+    color: $grey
+  font-family: $main
+  box-sizing: border-box
+  
+a
+  text-decoration: none
+  color: #000000
+
+button
+  cursor: pointer
+  border: 0
+  outline: none
+ul
+  list-style-type: none
+  margin: 0
+  padding: 0
+
+img
+  max-width: 100%
+
+form
+  margin: 0
+
+.box-primary
+  box-shadow: 0px 3px 6px 1px rgba(0,0,0,0.18)
+  background: 
+    color: #ffffff
+  margin: 42px 8px 0 8px
+  padding: 25px 15px 36px 15px
+  height: 470px
+  position: absolute
+  top: 0
+  left: 0
+  z-index: 2
+.box-secondary
+  background: 
+    color: $green
+  
+.overlapping
+  position: relative
+.text-wrapper 
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  text-align: center
+  margin: 0 20px
+  color: #ffffff
+.btn 
+  background: 
+    color: $green
+  color: #ffffff
+  font:
+    weight: 500
+  padding: 15px 55px
+  border-radius: 5px
+  transition: background 0.3s ease-in-out
+.btn:hover
+  color: $green
+  background-color: #ffffff
+.sub-title, .sub-title-alt
+    text-transform: uppercase
+    font:
+      weight: 700
+    letter-spacing: 2.5px
+    margin-bottom: 15px
+.sub-title-alt
+  color: $dark-grey
+.title, .title-alt
+    font:
+      family: $secondary
+      weight: 700
+    margin-bottom: 30px
+.title-alt
+  color: #000000
+.desc, .desc-alt
+    font:
+      weight: 400
+    margin-bottom: 25px
+.desc-alt
+  color: $dark-grey
+.common-text
+  font:
+    weight: 700
+
+@media (min-width: 768px)
+  .desc
+    width: 80%
+    padding-bottom: 30px
+
+@media (min-width: 992px)
+  .desc
+    width: 40%

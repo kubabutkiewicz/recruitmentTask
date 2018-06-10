@@ -1,0 +1,141 @@
+@import 'vars'
+@import 'base'
+.main-nav 
+  background: 
+    color: transparent
+  height: 52px
+  width: 100%
+  position: fixed
+  display: flex
+  justify-content: space-between
+  padding-bottom: 15px
+  z-index: 10
+  .logo-link
+    display: flex
+    .logo
+      margin: 10px 16px
+      padding: 5px
+      width: 28px
+      height: 32px
+      background:
+        image: url('/assets/images/jb-logo.svg')
+        repeat: no-repeat
+        size: cover
+    .company-name
+      font:
+        family: $secondary
+        size: 25px
+        weight: 500
+      color: #ffffff  
+      display: none
+  .hamburger
+    width: 35px
+    height: 34px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 16px 16px
+    background: 
+      color: transparent
+    position: relative
+    color: #ffffff
+    z-index: 4
+  .menu
+    background: 
+      color: $dark-blue
+    height: 100vh
+    position: fixed
+    right: 0
+    width: 70vw
+    padding-top: 72px
+    transform: translateX(100%)
+    transition: all 0.3s ease-in-out
+    z-index: 3
+    &.open
+      transform: translateX(0)
+    .menu-item
+      margin-bottom: 36px; 
+      z-index: 3
+      margin-left: 25px
+      .menu-link
+        color: #ffffff
+        font:
+          size: 22px
+          weight: 400
+        position: relative
+        &:before
+          content: ''
+          transform: scaleX(0)
+          transform-origin: 100%
+          transition: all 0.2s ease-in-out
+        &:hover:before
+          content: ''
+          width: 42px
+          height: 3px
+          background-color: $green
+          position: absolute
+          top: 50%
+          right: 110%
+          transform: scaleX(1)
+
+@media (min-width: 768px)
+  .main-nav 
+    .logo-link 
+      .company-name
+        display: block
+    .menu
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: 50vw
+
+
+  
+@media (min-width: 1025px)
+  .main-nav
+    align-items: center
+    padding-top: 10px
+    .logo-link
+      .logo
+        margin-left: 90px
+
+    .hamburger
+      display: none
+    .menu
+      height: auto
+      background:
+        color: transparent
+      transform: translateX(0)
+      width: auto
+      flex-direction: row
+      padding-top: 0
+      padding-right: 90px
+      right: 0
+      .menu-item
+        margin: 0 20px
+        .menu-link
+          &:before
+            content: ''
+            transform: scaleX(0)
+            transform-origin: 100%
+            transition: all 0.2s ease-in-out
+          &:hover:before
+            content: ''
+            width: 100%
+            height: 3px
+            background-color: $green
+            position: absolute
+            top: 120%
+            right: 0
+            transform: scaleX(1)
+@media (min-width: 1200px)
+  .main-nav
+    .logo-link
+      .logo
+        margin-left: 150px
+    .menu
+      padding-right: 150px
+      
+        
+
+        

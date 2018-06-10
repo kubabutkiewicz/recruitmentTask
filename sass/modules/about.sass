@@ -1,0 +1,105 @@
+#about
+  position: relative
+  .overlapping
+    height: 1124px
+  .box-primary
+    z-index: 3
+    .btn
+      width: 100%
+      &:hover
+        background: 
+          color: $dark-blue
+        color: #ffffff 
+  .about-img
+    z-index: 1
+    position: absolute
+    bottom: 32%
+    left: 0
+  .box-secondary
+    display: flex
+    position: absolute
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    color: #ffffff
+    padding-top: 37px
+    z-index: 2
+    bottom: 0
+    width: 100%
+  
+    .stats
+      text-align: center
+      padding: 0
+      margin-top: 24px
+      .stats-numbers
+        padding-bottom: 35px
+        .title
+          margin-bottom: 6px
+
+@media (min-width: 768px)
+  #about
+    .overlapping
+      width: 758px
+      margin: 70px auto
+      height: 100vh
+      .box-primary
+        width: 504px
+        margin-left: 20px
+        .btn
+          width: 70%
+      .about-img
+        width: 512px
+        margin-left: 51px
+        bottom: 0
+      .box-secondary
+        width: 254px
+        right: 0
+        top: 20%
+        height: 454px
+        .sub-title
+          width: 50%
+          text-align: center
+        .stats
+          width: 60%
+
+@media (min-width: 1024px)
+  #about
+    .overlapping
+      width: 1110px
+      .about-img
+        width: 693px
+        top: 20%
+        left: auto
+        right: 0
+        
+      .box-secondary
+        width: 500px
+        height: 224px
+        left: 3.5%
+        top: 70%
+        
+        .stats
+          display: flex
+          width: 100%
+          justify-content: space-around
+          .stats-numbers
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            width: 33.33%
+            .common-text
+              width: 50%
+              text-align: center
+
+@media (min-width: 1920px)
+  #about
+    .overlapping  
+      .box-secondary
+        top: 55%
+
+          
+
+
+    
+    

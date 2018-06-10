@@ -1,0 +1,61 @@
+#prizes
+  background: 
+    color: #ffffff
+  text-align: center
+  padding-top: 43px
+  .container
+    width: 350px
+    margin: 0 auto
+    .prizes
+      .prizes-item
+        width: 50%
+        margin: 42px auto
+        &:last-child
+          margin-bottom: 0
+
+        .standings
+          color: $dark-grey
+          margin-bottom: 9px
+          &.first-place
+            color: $green
+        .icon
+          margin-bottom: 15px
+@media (min-width: 768px)
+  #prizes
+    .title-alt
+      width: 70%
+      margin: 0 auto 42px auto
+    .container
+      width: 768px
+      .prizes
+        display: flex
+        flex-wrap: wrap
+        .prizes-item
+          width: 33.33%
+          .standings
+            margin-bottom: 23px
+          .icon
+            margin-bottom: 24px
+          .common-text
+            margin: 0 auto
+            width: 60%
+@media (min-width: 1025px)
+  #prizes
+    .container
+      width: 100%
+      .prizes
+        justify-content: space-between
+        .prizes-item
+          width: 15%
+          .standings
+            margin-bottom: 20px
+          .wrapper
+            height: 85px
+            margin: 26px 0
+            display: flex
+            justify-content: center
+            align-items: center
+            .icon
+             
+          .common-text
+            width: 100%
