@@ -744,7 +744,11 @@ form {
     #contact .contact-form .btn {
       width: 90%;
       border: 0;
-      cursor: pointer; }
+      cursor: pointer;
+      outline: none; }
+      #contact .contact-form .btn:hover {
+        background-color: #1E3066;
+        color: #ffffff; }
 
 @media (min-width: 768px) {
   #contact {
@@ -798,10 +802,7 @@ form {
       #contact .container .content-wrapper .contact-form .text-input {
         height: 110px; }
       #contact .container .content-wrapper .contact-form .btn {
-        width: 65%; }
-        #contact .container .content-wrapper .contact-form .btn:hover {
-          background-color: #1E3066;
-          color: #ffffff; } }
+        width: 65%; } }
 
 .footer {
   background-color: #1E3066;
