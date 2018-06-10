@@ -61,6 +61,22 @@ button {
     font-size: 16px;
     line-height: 19px; } }
 
+@font-face {
+  font-family: 'Millunium-Bold';
+  src: url("../assets/fonts/Millunium Bold/Millunium-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Medium';
+  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Bold';
+  src: url("../assets/fonts/Millunium Bold/Millunium-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Medium';
+  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf"); }
+
 body {
   background-color: #F4F4F4;
   font-family: "Raleway", sans-serif;
@@ -135,7 +151,7 @@ form {
   color: #707070; }
 
 .title, .title-alt {
-  font-family: "Millunium", sans-serif;
+  font-family: "Millunium-Bold", sans-serif;
   font-weight: 700;
   margin-bottom: 30px; }
 
@@ -161,6 +177,22 @@ form {
   .desc {
     width: 40%; } }
 
+@font-face {
+  font-family: 'Millunium-Bold';
+  src: url("../assets/fonts/Millunium Bold/Millunium-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Medium';
+  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Bold';
+  src: url("../assets/fonts/Millunium Bold/Millunium-Bold.ttf"); }
+
+@font-face {
+  font-family: 'Millunium-Medium';
+  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf"); }
+
 body {
   background-color: #F4F4F4;
   font-family: "Raleway", sans-serif;
@@ -235,7 +267,7 @@ form {
   color: #707070; }
 
 .title, .title-alt {
-  font-family: "Millunium", sans-serif;
+  font-family: "Millunium-Bold", sans-serif;
   font-weight: 700;
   margin-bottom: 30px; }
 
@@ -281,7 +313,7 @@ form {
       background-repeat: no-repeat;
       background-size: cover; }
     .main-nav .logo-link .company-name {
-      font-family: "Millunium", sans-serif;
+      font-family: "Millunium-Medium", sans-serif;
       font-size: 25px;
       font-weight: 500;
       color: #ffffff;
