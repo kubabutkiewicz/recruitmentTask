@@ -872,7 +872,9 @@ form {
   margin-top: 43px;
   margin-bottom: 7px;
 }
-
+#contact .contact-form {
+  margin-left: 16px;
+}
 #contact .contact-form .name-input,
 #contact .contact-form .email-input {
   width: 90%;
@@ -924,6 +926,9 @@ form {
   #contact .container .contact-img {
     margin-top: 144px;
     border-radius: 3px;
+  }
+  #contact .container .contact-form {
+    margin-left: 0
   }
   #contact .container .contact-form .name-input,
   #contact .container .contact-form .email-input {
