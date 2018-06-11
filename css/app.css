@@ -455,7 +455,7 @@ form {
     #about .overlapping .about-img {
       width: 512px;
       margin-left: 51px;
-      bottom: 0; }
+      bottom: 10%; }
     #about .overlapping .box-secondary {
       width: 254px;
       right: 0;
@@ -479,7 +479,7 @@ form {
       width: 500px;
       height: 224px;
       left: 3.5%;
-      top: 70%; }
+      top: 58%; }
       #about .overlapping .box-secondary .stats {
         display: flex;
         width: 100%;
@@ -496,7 +496,7 @@ form {
 
 @media (min-width: 1920px) {
   #about .overlapping .box-secondary {
-    top: 55%; } }
+    top: 57%; } }
 
 #prizes {
   background-color: #ffffff;
@@ -620,7 +620,7 @@ form {
       #signup .container .overlapping .box-primary {
         top: 0;
         width: 600px;
-        padding: 0 23px 42px 23px; }
+        padding: 0 23px 52px 23px; }
         #signup .container .overlapping .box-primary .desc {
           width: 90%;
           padding-bottom: 0; }
@@ -662,10 +662,6 @@ form {
         margin: 0 120px; }
       #signup .container .overlapping .box-secondary .wrapper {
         margin-left: 50px; } }
-
-@media (min-width: 1920px) {
-  #signup .container {
-    width: 1250px; } }
 
 #contact {
   background-color: #ffffff; }
