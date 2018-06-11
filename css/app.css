@@ -496,7 +496,7 @@ form {
 
 @media (min-width: 1920px) {
   #about .overlapping .box-secondary {
-    top: 39%; } }
+    top: 55%; } }
 
 #prizes {
   background-color: #ffffff;
@@ -622,7 +622,8 @@ form {
         width: 600px;
         padding: 0 23px 42px 23px; }
         #signup .container .overlapping .box-primary .desc {
-          width: 90%; }
+          width: 90%;
+          padding-bottom: 0; }
         #signup .container .overlapping .box-primary .btn {
           width: 70%; }
       #signup .container .overlapping .box-secondary {
@@ -664,9 +665,7 @@ form {
 
 @media (min-width: 1920px) {
   #signup .container {
-    width: 1250px; }
-    #signup .container .overlapping .box-primary .desc {
-      padding-bottom: 0; } }
+    width: 1250px; } }
 
 #contact {
   background-color: #ffffff; }
