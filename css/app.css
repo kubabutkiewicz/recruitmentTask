@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Millunium-Bold";
+  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"),
+      url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg"),
+      url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"),
+      url("../assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Millunium-Medium";
+  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.eot") format("eot"),
+      url("../assets/fonts/Millunium Medium/Millunium-Medium.svg") format("svg"),
+      url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf") format("ttf"),
+      url("../assets/fonts/Millunium Medium/Millunium-Medium.woff") format("woff"),
+      url("../assets/fonts/Millunium Medium/Millunium-Medium.woff2") format("woff2");
+  font-style: normal;
+}
 h1 {
   margin: 0;
   padding: 0;
