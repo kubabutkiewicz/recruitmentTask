@@ -1,3 +1,19 @@
+@font-face 
+{
+  font-family: "Millunium-Bold";
+  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"),url("../assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff"),url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"),url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+      
+@font-face
+{
+  font-family: 'Millunium-Medium';
+  src: url('../assets/fonts/Millunium Medium/Millunium-Medium.ttf') format('ttf'),url('../assets/fonts/Millunium Medium/Millunium-Medium.eot') format('eot'),url('../assets/fonts/Millunium Medium/Millunium-Medium.svg') format('svg'), url('../assets/fonts/Millunium Medium/Millunium-Medium.woff') format('woff'),url('../assets/fonts/Millunium Medium/Millunium-Medium.woff2') format('woff2');
+  font-style: normal;
+  font-weight: normal;
+}
+
 h1 {
   margin: 0;
   padding: 0;
@@ -60,30 +76,6 @@ button {
   button {
     font-size: 16px;
     line-height: 19px; } }
-
-@font-face {
-  font-family: "Millunium-Bold";
-  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"), url("//assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Millunium-Medium';
-  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf") format("ttf"), url("../assets/fonts/Millunium Medium/Millunium-Medium.eot") format("eot"), url("../assets/fonts/Millunium Medium/Millunium-Medium.svg") format("svg"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff") format("woff"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "Millunium-Bold";
-  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"), url("//assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Millunium-Medium';
-  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf") format("ttf"), url("../assets/fonts/Millunium Medium/Millunium-Medium.eot") format("eot"), url("../assets/fonts/Millunium Medium/Millunium-Medium.svg") format("svg"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff") format("woff"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal; }
 
 body {
   background-color: #F4F4F4;
@@ -184,30 +176,6 @@ form {
 @media (min-width: 992px) {
   .desc {
     width: 40%; } }
-
-@font-face {
-  font-family: "Millunium-Bold";
-  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"), url("//assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Millunium-Medium';
-  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf") format("ttf"), url("../assets/fonts/Millunium Medium/Millunium-Medium.eot") format("eot"), url("../assets/fonts/Millunium Medium/Millunium-Medium.svg") format("svg"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff") format("woff"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
-  font-family: "Millunium-Bold";
-  src: url("../assets/fonts/Millunium_Bold/Millunium-Bold.eot") format("eot"), url("//assets/fonts/Millunium_Bold/Millunium-Bold.woff") format("woff"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.ttf") format("ttf"), url("../assets/fonts/Millunium_Bold/Millunium-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Millunium-Medium';
-  src: url("../assets/fonts/Millunium Medium/Millunium-Medium.ttf") format("ttf"), url("../assets/fonts/Millunium Medium/Millunium-Medium.eot") format("eot"), url("../assets/fonts/Millunium Medium/Millunium-Medium.svg") format("svg"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff") format("woff"), url("../assets/fonts/Millunium Medium/Millunium-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: normal; }
 
 body {
   background-color: #F4F4F4;
